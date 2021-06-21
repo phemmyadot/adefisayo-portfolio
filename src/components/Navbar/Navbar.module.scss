@@ -1,0 +1,22 @@
+.Navbar {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.37) !important;
+  padding: 0.5rem 3rem !important;
+  a {
+    color: #ffffff !important;
+  }
+  a:hover {
+    color: #7e7d7d !important;
+  }
+  .Brand {
+    font-style: italic;
+    font-weight: 400;
+  }
+  .Link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    font-size: 0.9rem;
+  }
+}

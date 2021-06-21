@@ -1,0 +1,17 @@
+.Header {
+    min-height: 100vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)), url(./../../assets/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ .Intro {
+    font-weight: 300;
+    color: #fff;
+    margin: auto;
+    font-size: 1.6rem;
+    max-width: 50rem;
+    padding: 2rem;
+ }
+}

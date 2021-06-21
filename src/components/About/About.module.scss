@@ -1,0 +1,48 @@
+.Title {
+  text-align: center;
+}
+.About {
+  padding: 4rem 0;
+  > div {
+    display: flex;
+     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    > .Text {
+      width: 50%;
+      line-height: 2;
+      font-size: 1.1rem;
+    }
+    > .Photo {
+      width: 40%;
+      > img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .About {
+        padding: 2rem 0;
+        > div {
+          display: flex;
+           flex-wrap: wrap;
+          align-items: center;
+          > .Text {
+            width: 100%;
+            order: 2;
+            padding: 0 1rem;
+            line-height: 2;
+            font-size: 1rem;
+          }
+          > .Photo {
+            width: 100%;
+            order: 1;
+            > img {
+              width: 100%;
+            }
+          }
+        }
+      }
+  }
